@@ -64,7 +64,7 @@ This lesson follows a three-phase flow. Work through the phases in order.
 **Start here →** [**pre-class.md**](./pre-class.md)
 
 You will:
-- Open and run `notebooks/01_monday_morning.ipynb` (~15 min) — Sarah opens the new NorthStar churn dataset and sees the messiness of real data for the first time
+- Open and run `notebooks/01_morning_briefing.ipynb` (~15 min) — Sarah opens the new NorthStar churn dataset and sees the messiness of real data for the first time
 - Reflect on which features you'd actually trust
 - Watch two short videos (StatQuest on logistic regression + bias-variance)
 - Explore the [**interactive key-concepts page**](https://su-ntu-ctp.github.io/6m-data-3.3-Supervised-Learning/) after the videos (GitHub Pages)
@@ -82,9 +82,9 @@ You will:
 
 | # | Notebook | Sarah's day | What you explore |
 |---|---|---|---|
-| 02 | [`02_preprocessing.ipynb`](./notebooks/02_preprocessing.ipynb) | Tuesday | Missing values · scaling · encoding · sklearn Pipeline + ColumnTransformer |
-| 03 | [`03_train_validate.ipynb`](./notebooks/03_train_validate.ipynb) | Wednesday | Train/test split · logistic regression · k-fold cross-validation · coefficient interpretation |
-| 04 | [`04_metrics_threshold.ipynb`](./notebooks/04_metrics_threshold.ipynb) | Thursday | Confusion matrix · precision/recall/F1 · why accuracy alone is misleading · choosing the operating threshold |
+| 02 | [`02_preprocessing.ipynb`](./notebooks/02_preprocessing.ipynb) | Late morning | Missing values · scaling · encoding · sklearn Pipeline + ColumnTransformer |
+| 03 | [`03_train_validate.ipynb`](./notebooks/03_train_validate.ipynb) | Early afternoon | Train/test split · logistic regression · k-fold cross-validation · coefficient interpretation |
+| 04 | [`04_metrics_threshold.ipynb`](./notebooks/04_metrics_threshold.ipynb) | Late afternoon | Confusion matrix · precision/recall/F1 · why accuracy alone is misleading · choosing the operating threshold |
 
 Each notebook opens with a business scenario, guides you through the code with **Pause & Predict** prompts, and ends with a summary table and "Up next" pointer. Read every markdown cell, not just the code.
 
@@ -135,10 +135,10 @@ docs/
 notebooks/
   data/
     northstar_churn.csv                ← 10,000-row training dataset (loads into all 4 notebooks)
-  01_monday_morning.ipynb              ← Pre-class hook: Sarah opens the data (~15 min, before class)
-  02_preprocessing.ipynb               ← Part 1: Preprocessing (Tuesday, in class)
-  03_train_validate.ipynb              ← Part 2: Train + Cross-validate (Wednesday, in class)
-  04_metrics_threshold.ipynb           ← Part 3: Metrics + Threshold (Thursday, in class)
+  01_morning_briefing.ipynb              ← Pre-class hook: Sarah opens the data (~15 min, before class)
+  02_preprocessing.ipynb               ← Part 1: Preprocessing (late morning, in class)
+  03_train_validate.ipynb              ← Part 2: Train + Cross-validate (early afternoon, in class)
+  04_metrics_threshold.ipynb           ← Part 3: Metrics + Threshold (late afternoon, in class)
   assignment.ipynb                     ← After class: Lakeside Bank + hospital exercises
   optional_extensions.ipynb            ← 🟡 Optional: bias-variance · ROC-AUC · learning curves · feature engineering
 ```
